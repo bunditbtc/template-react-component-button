@@ -11,11 +11,11 @@
   "files": [
     "dist"
   ],
-  "types": "dist/index.d.ts", 
+  "types": "dist/index.d.ts",
   "scripts": {
     "rollup": "rollup -c --bundleConfigAsCjs",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build" 
+    "deploy": "gh-pages -d build"
   },
   "author": "Phataem",
   "license": "ISC",
@@ -24,6 +24,7 @@
     "@rollup/plugin-node-resolve": "^15.2.3",
     "@rollup/plugin-typescript": "^11.1.6",
     "@types/react": "^18.3.5",
+    "gh-pages": "^6.1.1",
     "react": "^18.3.1",
     "rollup": "^4.21.2",
     "rollup-plugin-dts": "^6.1.1",
