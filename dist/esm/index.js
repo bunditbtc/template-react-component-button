@@ -2808,7 +2808,7 @@ function styleInject(css, ref) {
   }
 }
 
-var css_248z = "button {\r\n  font-size: 30px;\r\n  border-radius: 25px; \r\n  background-color:green;\r\n  color:white;\r\n  border: 1px solid;\r\n  padding: 5px;\r\n  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);\r\n  text-align: center;\r\n}";
+var css_248z = "button {\r\n  font-size: 30px;\r\n  border-radius: 15px; \r\n  background-color:green;\r\n  color:white;\r\n  border: 1px solid;\r\n  padding: 5px;\r\n  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);\r\n  text-align: center;  \r\n}";
 styleInject(css_248z);
 
 var Button = function (props) {
