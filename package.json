@@ -14,7 +14,8 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "rollup": "rollup -c --bundleConfigAsCjs",
-    "predeploy": "rollup -c --bundleConfigAsCjs",
+    "predeploy": "npm run build",
+    "build": "rollup -c --bundleConfigAsCjs",
     "deploy": "gh-pages -d build"
   },
   "author": "Phataem",
